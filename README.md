@@ -33,4 +33,4 @@ It is a simple tool created to make life easier for people applying for GSOC.
 
     * If you want all the oraganizations that are common between different years, your input should in the form:  
     `co <gsoc year1>,<gsoc year2>,...`  
-    Example: `gt 2016,2017,2018`
+    Example: `co 2016,2017,2018`
