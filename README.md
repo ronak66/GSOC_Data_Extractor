@@ -10,7 +10,7 @@ It is a simple tool created to make life easier for people applying for GSOC.
 3. Provides list of oraganizations that uses the given technology and occur almost every year (first and second feature combined)  
 ```
 
-## Instalation
+## Installation
 
 1. [FuzzyWuzzy Python library (Run)](https://pypi.org/project/fuzzywuzzy/):
     ```
