@@ -2,7 +2,7 @@
 
 It is a simple tool created to make life easier for people applying for GSOC.
 
-### Features
+## Features
 
 ```
 1. Compares and gives a list of gsoc organization that are common between different years
@@ -10,7 +10,7 @@ It is a simple tool created to make life easier for people applying for GSOC.
 3. Provides list of oraganizations that uses the given technology and occur almost every year (first and second feature combined)  
 ```
 
-### Instalation
+## Instalation
 
 1. FuzzyWuzzy Python library (Run):
     * `$pip install fuzzywuzzy`
@@ -20,7 +20,7 @@ It is a simple tool created to make life easier for people applying for GSOC.
     * `$sudo apt-get install python3-bs4`
 
 
-### How to use
+## How to use
 
 1. Run `$python gsoc_yearly_data_generator.py`
     * Input the gsoc year you want to search for
