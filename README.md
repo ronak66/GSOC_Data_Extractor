@@ -12,16 +12,17 @@ It is a simple tool created to make life easier for people applying for GSOC.
 
 ## Instalation
 
-1. FuzzyWuzzy Python library (Run):
-    * `$pip install fuzzywuzzy`
-    * `$pip install python-Levenshtein`
-
-2. BeautifulSoup library (Run):
-    * `$sudo apt-get install python3-bs4`
-
+1. [FuzzyWuzzy Python library (Run)](https://pypi.org/project/fuzzywuzzy/):
+    ```
+    * $pip install fuzzywuzzy
+    * $pip install python-Levenshtein
+    ```
+2. [BeautifulSoup library (Run)](https://www.crummy.com/software/BeautifulSoup/bs4/doc/#installing-beautiful-soup):
+    ```
+    * $sudo apt-get install python3-bs4
+    ```
 
 ## How to use
-
 1. Run `$python gsoc_yearly_data_generator.py`
     * Input the gsoc year you want to search for
     * Wait till the count down drops to zero
