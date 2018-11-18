@@ -12,7 +12,7 @@ if(type[0] == "gt"):
     with open("ExtractedData.txt") as d:
         for l in d: dataList.append(l[0:len(l)-1])
     if type[1] not in dataList:
-        print "No Data of year " + i
+        print "No Data of year " + type[1]
         print "Run gsoc_yearly_data_generator.py for the given year"
         flag = 1
     if(flag!=1):
