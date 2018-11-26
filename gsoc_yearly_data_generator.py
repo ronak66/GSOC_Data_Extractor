@@ -10,13 +10,10 @@ import random
 
 warnings.filterwarnings("ignore")
 
-while(True):
-
+def extraction(year):
 	num = random.randint(1,10000)
-	year = input("GSOC Year: ")
 	file = open("GSOC_"+str(year)+"_Data.txt","w")
 	check_file = "ExtractedData.txt"
-	flag = 0
 	file1 = open(check_file,"r")
 
 	for line in file1:
@@ -44,9 +41,7 @@ while(True):
 			dict_2018[gsoc_2018_organizations[i]].append('https://summerofcode.withgoogle.com'+hrefs)
 			i+=1
 
-		# print i
-		# for i in gsoc_2018_organizations:
-		# 	print i+" " +dict_2018[i][0]
+
 		count = i
 		for i in gsoc_2018_organizations:
 			data = c.get(dict_2018[i][0])
@@ -62,29 +57,10 @@ while(True):
 			print count
 			count -=1
 
-		# print "---------------------------------"
-
-
-		# for i in gsoc_2018_organizations:
-		# 	for j in dict_2018[i]:
-		# 		if(j == 'rails'): print i
-
-		# page = c.get('https://summerofcode.withgoogle.com/archive/2017/organizations/')
-		# plain_text = page.text
-		# soup = BeautifulSoup(plain_text, "lxml")
-		# gsoc_2017_organizations = []
-		# for link in soup.findAll('h4',{'class': 'organization-card__name font-black-54'}):
-		# 	title = link.string
-		# 	gsoc_2017_organizations.append(title)
-		# print "---------------------------------"
-		#
-		# common = []
-		# for i in gsoc_2017_organizations:
-		# 	if i in gsoc_2018_organizations:
-		# 		common.append(i)
-		#
-		# for i in common: print i
 		file1 = open(check_file,"a+")
 		file1.write(str(year)+"\n")
 		file1.close()
-		break
+
+if __name__ == "__main__":
+	year = input("GSOC Year: ")
+	extraction(year)
