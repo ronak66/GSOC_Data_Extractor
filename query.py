@@ -8,11 +8,18 @@ def query(type):
     if(type[0] == "gt"):
         dataList = []
         flag=0
+        test=0
+        files = os.listdir('.')
         with open("ExtractedData.txt") as d:
             for l in d: dataList.append(l[0:len(l)-1])
         if type[1] not in dataList:
-            print "No Data of year " + type[1]
-            print "Run gsoc_yearly_data_generator.py for the given year"
+            for filename in files:
+        		if(filename == "GSOC_"+type[1]+"_Data.txt"): test=1
+            if(test==1):
+                print "Data of year " + type[1] + " has not been extracted completely"        
+                os.system("rm "+"GSOC_"+type[1]+"_Data.txt")
+            else: print "No Data of year " + type[1]
+            print "Please run gsoc_yearly_data_generator.py for year " + type[1]
             flag = 1
         if(flag!=1):
             file_name = "GSOC_"+type[1]+"_Data.txt"

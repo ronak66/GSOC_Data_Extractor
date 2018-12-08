@@ -12,16 +12,18 @@ warnings.filterwarnings("ignore")
 
 def extraction(year):
 	num = random.randint(1,10000)
-	file = open("GSOC_"+str(year)+"_Data.txt","w")
-	check_file = "ExtractedData.txt"
-	file1 = open(check_file,"r")
-
-	for line in file1:
-		if(int(line) == year):
+	# files = os.listdir('.')
+	dataList = []
+	with open("ExtractedData.txt") as d:
+            for l in d: dataList.append(l[0:len(l)-1])
+	# for filename in files:
+	# 	if(filename == "GSOC_"+str(year)+"_Data.txt"):
+	if year in dataList:
 			print "This year data is already present, check " + "GSOC_"+str(year)+"_Data.txt"
 			quit()
-	file1.close()
 
+	file = open("GSOC_"+str(year)+"_Data.txt", "w")
+	
 	with requests.Session() as c:
 
 		page = c.get("https://summerofcode.withgoogle.com/archive/" + str(year) + "/organizations/")
