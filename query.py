@@ -3,25 +3,30 @@ import os
 from fuzzywuzzy import fuzz
 from fuzzywuzzy import process
 
+def check(year):
+    flag=0
+    dataList = []
+    test = 0
+    files = os.listdir('.')
+    with open("ExtractedData.txt") as d:
+        for l in d:
+                dataList.append(l[0:len(l)-1])
+    if year not in dataList:
+        for filename in files:
+            if(filename == "GSOC_"+year+"_Data.txt"):
+                    test = 1
+        if(test == 1):
+            print "Data of year " + year + " has not been extracted completely"
+            os.system("rm "+"GSOC_"+year+"_Data.txt")
+        else:
+                print "No Data of year " + year
+        print "Please run gsoc_yearly_data_generator.py for year " + year
+        flag = 1
+    return flag
 
 def query(type):
     if(type[0] == "gt"):
-        dataList = []
-        flag=0
-        test=0
-        files = os.listdir('.')
-        with open("ExtractedData.txt") as d:
-            for l in d: dataList.append(l[0:len(l)-1])
-        if type[1] not in dataList:
-            for filename in files:
-        		if(filename == "GSOC_"+type[1]+"_Data.txt"): test=1
-            if(test==1):
-                print "Data of year " + type[1] + " has not been extracted completely"        
-                os.system("rm "+"GSOC_"+type[1]+"_Data.txt")
-            else: print "No Data of year " + type[1]
-            print "Please run gsoc_yearly_data_generator.py for year " + type[1]
-            flag = 1
-        if(flag!=1):
+        if not check(type[1]):
             file_name = "GSOC_"+type[1]+"_Data.txt"
             input = raw_input("Technology name: ")
             with open(file_name) as file:
@@ -38,15 +43,9 @@ def query(type):
 
     elif(type[0] == "co"):
         yearList = type[1].split(",")
-        dataList = []
-        with open("ExtractedData.txt") as d:
-            for l in d: dataList.append(l[0:len(l)-1])
         flag = 0
-        for i in yearList:
-            if i not in dataList:
-                print "No Data of year " + i
-                print "Run gsoc_yearly_data_generator.py for the given year"
-                flag = 1
+        for i in yearList: 
+            if check(i): flag=1
         dicts = []
         for i in yearList: dicts.append({})
         count =0
