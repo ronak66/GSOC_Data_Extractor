@@ -10,52 +10,48 @@ import random
 
 warnings.filterwarnings("ignore")
 
-def extraction(year):
-	num = random.randint(1,10000)
-	# files = os.listdir('.')
+def check(year):
 	dataList = []
-	with open("ExtractedData.txt") as d:
+	with open("Data/ExtractedData.txt") as d:
             for l in d: dataList.append(l[0:len(l)-1])
-	# for filename in files:
-	# 	if(filename == "GSOC_"+str(year)+"_Data.txt"):
 	if year in dataList:
 			print "This year data is already present, check " + "GSOC_"+str(year)+"_Data.txt"
 			quit()
 
-	file = open("GSOC_"+str(year)+"_Data.txt", "w")
+def extraction(year):
+	num = random.randint(1,10000)
+	check_file = "Data/ExtractedData.txt"
+	file = open("Data/GSOC_"+str(year)+"_Data.txt", "w")
 	
 	with requests.Session() as c:
-
 		page = c.get("https://summerofcode.withgoogle.com/archive/" + str(year) + "/organizations/")
 		plain_text = page.text
 		soup = BeautifulSoup(plain_text, "lxml")
-		dict_2018 = {}
-		gsoc_2018_organizations = []
+		dict_year = {}
+		gsoc_year_organizations = []
 		for name in soup.findAll('h4',{'class': 'organization-card__name font-black-54'}):
 			title = name.string
-			gsoc_2018_organizations.append(title)
-			dict_2018[title] = []
-
+			gsoc_year_organizations.append(title)
+			dict_year[title] = []
 
 		i=0
 		for link in soup.findAll('a',{'class': 'organization-card__link'}):
 			hrefs = link.get('href')
-			dict_2018[gsoc_2018_organizations[i]].append('https://summerofcode.withgoogle.com'+hrefs)
+			dict_year[gsoc_year_organizations[i]].append('https://summerofcode.withgoogle.com'+hrefs)
 			i+=1
 
-
 		count = i
-		for i in gsoc_2018_organizations:
-			data = c.get(dict_2018[i][0])
+		for i in gsoc_year_organizations:
+			data = c.get(dict_year[i][0])
 			data_text = data.text
 			soup = BeautifulSoup(data_text, "lxml")
 			for tag in soup.findAll('li',{'class': 'organization__tag--technology'}):
 				tags = tag.string
-				dict_2018[i].append(tags.encode('utf-8'))
+				dict_year[i].append(tags.encode('utf-8'))
 			file.write(i.encode('utf-8')+",")
-			for k in range(len(dict_2018[i])):
-				if(k != len(dict_2018[i])-1): file.write(dict_2018[i][k]+",")
-				else: file.write(dict_2018[i][k]+"\n")
+			for k in range(len(dict_year[i])):
+				if(k != len(dict_year[i])-1): file.write(dict_year[i][k]+",")
+				else: file.write(dict_year[i][k]+"\n")
 			print count
 			count -=1
 
