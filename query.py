@@ -13,11 +13,11 @@ def check(year):
                 dataList.append(l[0:len(l)-1])
     if year not in dataList:
         for filename in files:
-            if(filename == "GSOC_"+year+"_Data.txt"):
+            if(filename == "GSOC_"+year+"_Data.ods"):
                     test = 1
         if(test == 1):
             print "Data of year " + year + " has not been extracted completely"
-            os.system("rm "+"Data/GSOC_"+year+"_Data.txt")
+            os.system("rm "+"Data/GSOC_"+year+"_Data.ods")
         else:
                 print "No Data of year " + year
         print "Please run gsoc_yearly_data_generator.py for year " + year
@@ -27,7 +27,7 @@ def check(year):
 def query(type):
     if(type[0] == "gt"):
         if not check(type[1]):
-            file_name = "GSOC_"+type[1]+"_Data.txt"
+            file_name = "GSOC_"+type[1]+"_Data.ods"	
             input = raw_input("Technology name: ")
             with open("Data/"+file_name) as file:
                 for line in file:
@@ -51,7 +51,7 @@ def query(type):
         count =0
         if(flag != 1):
             for i in yearList:
-                file_name = "GSOC_"+i+"_Data.txt"
+                file_name = "GSOC_"+i+"_Data.ods"
                 with open("Data/"+file_name) as file:
                     for line in file:
                         line = line.split(",")

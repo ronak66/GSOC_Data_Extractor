@@ -15,13 +15,13 @@ def check(year):
 	with open("Data/ExtractedData.txt") as d:
             for l in d: dataList.append(l[0:len(l)-1])
 	if year in dataList:
-			print "This year data is already present, check " + "GSOC_"+str(year)+"_Data.txt"
+			print "This year data is already present, check " + "GSOC_"+str(year)+"_Data.ods"
 			quit()
 
 def extraction(year):
 	num = random.randint(1,10000)
 	check_file = "Data/ExtractedData.txt"
-	file = open("Data/GSOC_"+str(year)+"_Data.txt", "w")
+	file = open("Data/GSOC_"+str(year)+"_Data.ods", "w")
 	
 	with requests.Session() as c:
 		page = c.get("https://summerofcode.withgoogle.com/archive/" + str(year) + "/organizations/")
