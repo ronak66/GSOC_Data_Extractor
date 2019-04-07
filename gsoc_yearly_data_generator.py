@@ -24,7 +24,8 @@ def extraction(year):
 	file = open("Data/GSOC_"+str(year)+"_Data.ods", "w")
 	
 	with requests.Session() as c:
-		page = c.get("https://summerofcode.withgoogle.com/archive/" + str(year) + "/organizations/")
+                if(year!=2019): page = c.get("https://summerofcode.withgoogle.com/archive/" + str(year) + "/organizations/")
+                else: page = c.get("https://summerofcode.withgoogle.com/organizations/#6230025286713344")
 		plain_text = page.text
 		soup = BeautifulSoup(plain_text, "lxml")
 		dict_year = {}
@@ -52,7 +53,9 @@ def extraction(year):
 			for k in range(len(dict_year[i])):
 				if(k != len(dict_year[i])-1): file.write(dict_year[i][k]+",")
 				else: file.write(dict_year[i][k]+"\n")
-			print count
+		        #print '{0}\r'.format(count),
+                        print count
+                        #print '\r'+str(count),
 			count -=1
 
 		file1 = open(check_file,"a+")
