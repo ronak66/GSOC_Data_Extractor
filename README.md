@@ -36,4 +36,6 @@ It is a simple tool created to make life easier for people applying for GSOC.
     `co <gsoc year1>,<gsoc year2>,...`  
     Example: `co 2016,2017,2018`
 
+![Screen Shot](https://github.com/ronak66/GSOC_Data_Extractor/blob/master/assets/org%20list.jpg)
+
 **Note : Don't manually delete any GSOC_<'year'>_Data.ods file, and even if you do, remove the line containing that year from ExtractedData.txt**
