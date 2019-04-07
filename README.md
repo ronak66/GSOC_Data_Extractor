@@ -7,7 +7,8 @@ It is a simple tool created to make life easier for people applying for GSOC.
 ```
 1. Compares and gives a list of gsoc organization that are common between different years
 2. Provides a list of gsoc organization that uses the given technology
-3. Provides list of oraganizations that uses the given technology and occur almost every year (first and second feature combined)  
+3. Provides list of oraganizations that uses the given technology and occur almost every year  
+   (first and second feature combined)  
 ```
 
 ## Installation
