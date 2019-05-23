@@ -20,3 +20,159 @@ CCExtractor Development,https://summerofcode.withgoogle.com/archive/2016/organiz
 Celluloid,https://summerofcode.withgoogle.com/archive/2016/organizations/4955769220890624/,ruby,multi-threading,multi-core,zeromq,high-resolution timers
 Ceph,https://summerofcode.withgoogle.com/archive/2016/organizations/5408317308403712/,c/c++,python,object-storage
 CERN SFT,https://summerofcode.withgoogle.com/archive/2016/organizations/6273708926697472/,c++,python,javascript,clang
+Chapel,https://summerofcode.withgoogle.com/archive/2016/organizations/4704629866627072/,python,chapel,c,c++,high performance computing
+CiviCRM,https://summerofcode.withgoogle.com/archive/2016/organizations/4866334043144192/,php,javascript,mysql,angularjs,d3js
+Classical Language Toolkit,https://summerofcode.withgoogle.com/archive/2016/organizations/5724313353191424/,python,javascript,java
+CloudCV,https://summerofcode.withgoogle.com/archive/2016/organizations/4785685563179008/,python,javascript,lua,caffe,torch
+Computational Biology @ University of Nebraska-Lincoln,https://summerofcode.withgoogle.com/archive/2016/organizations/5954364552249344/,webgl,javascript,mysql,react
+Computational Science and Engineering at TU Wien,https://summerofcode.withgoogle.com/archive/2016/organizations/5902411419877376/,javascript,html,css,java,c++
+Copyleft Games,https://summerofcode.withgoogle.com/archive/2016/organizations/5222096653254656/,python,opengl,c
+coreboot,https://summerofcode.withgoogle.com/archive/2016/organizations/6036378966032384/,c,assembly,open hardware
+CVXPY,https://summerofcode.withgoogle.com/archive/2016/organizations/6020075270176768/,python
+D Foundation,https://summerofcode.withgoogle.com/archive/2016/organizations/4688223091556352/,dlang,c++
+dbpediaspotlight,https://summerofcode.withgoogle.com/archive/2016/organizations/6313893177589760/,java,scala,rdf,python,nosql
+Debian Project,https://summerofcode.withgoogle.com/archive/2016/organizations/4808739873882112/,python,c,c++,ruby,django
+Discourse,https://summerofcode.withgoogle.com/archive/2016/organizations/6414446415052800/,ruby,ruby on rails,javascript,ember,docker
+Distributed and Unified Numerics Environment (DUNE),https://summerofcode.withgoogle.com/archive/2016/organizations/5457125316755456/,c++,python,cmake
+Django Software Foundation,https://summerofcode.withgoogle.com/archive/2016/organizations/5977934124810240/,python,django
+Drupal,https://summerofcode.withgoogle.com/archive/2016/organizations/4644948074823680/,php,symfony,sql,javascript,html5
+Eclipse Foundation,https://summerofcode.withgoogle.com/archive/2016/organizations/6236335463464960/,java,geospatial,c/c++
+Fedora Project,https://summerofcode.withgoogle.com/archive/2016/organizations/5911585470021632/,python,flask,postgresql,html5,javascript
+FFmpeg,https://summerofcode.withgoogle.com/archive/2016/organizations/4753437874978816/,c,asm,git
+FOSDEM VZW,https://summerofcode.withgoogle.com/archive/2016/organizations/4603925500002304/,ruby on rails,postgresql,git
+FOSSASIA,https://summerofcode.withgoogle.com/archive/2016/organizations/4912324552949760/,javascript,android,python,java,json api
+Free and Open Source Silicon Foundation,https://summerofcode.withgoogle.com/archive/2016/organizations/5210550707421184/,open hardware,fpga,compiler,python,javascript
+FreeBSD,https://summerofcode.withgoogle.com/archive/2016/organizations/5673385510043648/,c/c++,clang,llvm,shell script,make
+Freifunk,https://summerofcode.withgoogle.com/archive/2016/organizations/6540884078231552/,openwrt,olsr,batman,c,lua
+Gambit - Software Tools for Game Theory,https://summerofcode.withgoogle.com/archive/2016/organizations/6393779032424448/,javascript
+Ganeti,https://summerofcode.withgoogle.com/archive/2016/organizations/5865050841546752/,python,haskell,kvm,xen,virtualization
+Genes, Genomes and Variation,https://summerofcode.withgoogle.com/archive/2016/organizations/6638327222501376/,mysql,javascript,perl
+Gentoo Foundation,https://summerofcode.withgoogle.com/archive/2016/organizations/6575198987878400/,shell script,c/c++,python,perl,sql
+Git,https://summerofcode.withgoogle.com/archive/2016/organizations/5532648021688320/,c,shell script,git
+GitHub,https://summerofcode.withgoogle.com/archive/2016/organizations/5632763172487168/,git,atom,node.js,ruby,c#
+Global Alliance for Genomics & Health,https://summerofcode.withgoogle.com/archive/2016/organizations/6536303764045824/,python,java,protobuf,sql
+GNOME,https://summerofcode.withgoogle.com/archive/2016/organizations/6228320517619712/,c,python,javascript,gtk+
+gnss-sdr,https://summerofcode.withgoogle.com/archive/2016/organizations/5800194151022592/,c/c++,c++11,c++14,gnss
+GNU Mailman,https://summerofcode.withgoogle.com/archive/2016/organizations/5729825406844928/,python,email,django
+GNU Octave,https://summerofcode.withgoogle.com/archive/2016/organizations/4799884188188672/,hg,c++
+GNU Project,https://summerofcode.withgoogle.com/archive/2016/organizations/4828960579911680/,posix,c,lisp,python,eiffel
+GNU Radio,https://summerofcode.withgoogle.com/archive/2016/organizations/6221912157978624/,c++,python,software radio,dsp,rf
+GPAC,https://summerofcode.withgoogle.com/archive/2016/organizations/4917249001390080/,mp4,dash,mp4box,javascript,c++
+Green Navigation,https://summerofcode.withgoogle.com/archive/2016/organizations/6442287735242752/,javascript,postgresql,polymer,go,electromobility
+gRPC,https://summerofcode.withgoogle.com/archive/2016/organizations/5034912851689472/,distributed systems,networking,micro-services,scalability,http/2
+Health Information Systems Programme,https://summerofcode.withgoogle.com/archive/2016/organizations/5849050746191872/,java,android,javascript,reactjs,gradle
+Homebrew,https://summerofcode.withgoogle.com/archive/2016/organizations/5422996969750528/,ruby,git,osx
+Inclusive Design Institute,https://summerofcode.withgoogle.com/archive/2016/organizations/4725596554788864/,javascript,jquery,html5,css,node.js
+Indic Project,https://summerofcode.withgoogle.com/archive/2016/organizations/5096012251136000/,android,python,javascript,ruby on rails,c++
+Inkscape,https://summerofcode.withgoogle.com/archive/2016/organizations/5665370564198400/,c++,python,svg,css,gtk+
+International Neuroinformatics Coordinating Facility,https://summerofcode.withgoogle.com/archive/2016/organizations/6563422992859136/,c++,python,gpu,javascript,java
+Java Pathfinder Team,https://summerofcode.withgoogle.com/archive/2016/organizations/4723150839349248/,java,jvm,android,distributed systems
+JBoss Community,https://summerofcode.withgoogle.com/archive/2016/organizations/6177116454387712/,java,android,ide,aerogear,asciidoctor
+Jenkins Project,https://summerofcode.withgoogle.com/archive/2016/organizations/4879888423059456/,java,groovy,jenkins,css,html
+Joomla!,https://summerofcode.withgoogle.com/archive/2016/organizations/6222406616088576/,php,css,html,javascript,jquery
+jQuery Foundation,https://summerofcode.withgoogle.com/archive/2016/organizations/5754903989321728/,javascript,html5,css,jquery
+JSK Robotics Laboratory,https://summerofcode.withgoogle.com/archive/2016/organizations/5081151127420928/,euslisp,openhrp,openrtm,ros
+KDE,https://summerofcode.withgoogle.com/archive/2016/organizations/5267579820048384/,qt,cmake,c++,php
+KolibriOS,https://summerofcode.withgoogle.com/archive/2016/organizations/5678701068943360/,fasm,flat assembler,x86 assembly,i386,i586
+LabLua,https://summerofcode.withgoogle.com/archive/2016/organizations/4733835644239872/,lua,luarocks,elasticsearch,netbsd,céu
+LibreOffice,https://summerofcode.withgoogle.com/archive/2016/organizations/6301550246887424/,c++,python,java,android,opengl
+Libvirt,https://summerofcode.withgoogle.com/archive/2016/organizations/5512427315658752/,c,qemu,xen,containers
+Liquid Galaxy Project,https://summerofcode.withgoogle.com/archive/2016/organizations/6555183903408128/,javascript,ros,gis,cesium
+lowRISC,https://summerofcode.withgoogle.com/archive/2016/organizations/4969698068267008/,verilog,fpga,chisel,c++,linux
+MariaDB,https://summerofcode.withgoogle.com/archive/2016/organizations/4961683122421760/,mysql,mariadb,c,perl
+Matrix.org,https://summerofcode.withgoogle.com/archive/2016/organizations/6552738187968512/,react,android,ios,golang,python
+MBDyn, Department of Aerospace Science and Technology at Politecnico di Milano,https://summerofcode.withgoogle.com/archive/2016/organizations/6241651022364672/,c++
+McGill Space Institute,https://summerofcode.withgoogle.com/archive/2016/organizations/4739150934704128/,python,sql,databases,big data
+MetaBrainz Foundation,https://summerofcode.withgoogle.com/archive/2016/organizations/4969202133762048/,python,perl,postgresql,javascript
+Mifos Initiative,https://summerofcode.withgoogle.com/archive/2016/organizations/5830829079003136/,java,javascript,angularjs,android,mysql
+MIT Media Lab,https://summerofcode.withgoogle.com/archive/2016/organizations/5954860486754304/,java,html/javascript,android
+Mixxx DJ Software,https://summerofcode.withgoogle.com/archive/2016/organizations/5027086615969792/,c++11,c++,qt,audio,opengl
+mlpack: a scalable C++ machine learning library,https://summerofcode.withgoogle.com/archive/2016/organizations/5115751115522048/,c++
+Mobile Robot Programming Toolkit (MRPT),https://summerofcode.withgoogle.com/archive/2016/organizations/5644101080842240/,c++,ros,opencv,cmake,qt
+ModSecurity,https://summerofcode.withgoogle.com/archive/2016/organizations/6377072951820288/,waf,web application firewall
+Moodle,https://summerofcode.withgoogle.com/archive/2016/organizations/4769741570834432/,php,jquery,mysql,postgresql,javascript
+MovingBlocks,https://summerofcode.withgoogle.com/archive/2016/organizations/5187993270747136/,java,lwjgl,opengl,blender,gradle
+Mozilla,https://summerofcode.withgoogle.com/archive/2016/organizations/5282259481395200/,c++,python,javascript,html,rust
+MuseScore,https://summerofcode.withgoogle.com/archive/2016/organizations/5302100888125440/,qt,c/c++,qml
+National Resource for Network Biology (NRNB),https://summerofcode.withgoogle.com/archive/2016/organizations/6599328919453696/,c++,java,javascript,php,python
+Netfilter project,https://summerofcode.withgoogle.com/archive/2016/organizations/6465361373298688/,firewall,linux kernel,networking
+Nmap Security Scanner,https://summerofcode.withgoogle.com/archive/2016/organizations/5391414598828032/,c/c++,lua,python,c,c++
+NumFOCUS,https://summerofcode.withgoogle.com/archive/2016/organizations/4647600753999872/,python,javascript,julia,r
+Open Bioinformatics Foundation,https://summerofcode.withgoogle.com/archive/2016/organizations/5480198954811392/,perl,python,ruby,java,haskell
+Open Chemistry,https://summerofcode.withgoogle.com/archive/2016/organizations/6038224459792384/,c++,opengl,python,javascript,webgl
+Open Detection,https://summerofcode.withgoogle.com/archive/2016/organizations/4634560427982848/,c/c++,cmake,opencv,pcl,caffe
+Open Ephys,https://summerofcode.withgoogle.com/archive/2016/organizations/5166380995313664/,c++,juce
+Open Genome Informatics,https://summerofcode.withgoogle.com/archive/2016/organizations/5362834141609984/,python,java,html/javascript,nodejs,gwt
+Open Source Robotics Foundation,https://summerofcode.withgoogle.com/archive/2016/organizations/5925784095031296/,ros,gazebo
+OpenAstronomy,https://summerofcode.withgoogle.com/archive/2016/organizations/5193799529660416/,python,julia,c,numpy
+OpenCV,https://summerofcode.withgoogle.com/archive/2016/organizations/6474535423442944/,c++,python,machine learning,computer vision
+OpenKeychain (OpenPGP for Android),https://summerofcode.withgoogle.com/archive/2016/organizations/5672889575538688/,android,openpgp
+OpenMRS,https://summerofcode.withgoogle.com/archive/2016/organizations/5007071531499520/,java,groovy,html5,xml,hibernate
+OpenStreetMap,https://summerofcode.withgoogle.com/archive/2016/organizations/6253041544069120/,postgis,java,ruby,javascript,opengl
+openSUSE,https://summerofcode.withgoogle.com/archive/2016/organizations/5377981685956608/,ruby on rails,angularjs,docker,linux,ruby
+Oppia Foundation,https://summerofcode.withgoogle.com/archive/2016/organizations/4668002385526784/,javascript,app engine,python,css,angularjs
+Orange – Data Mining Fruitful & Fun,https://summerofcode.withgoogle.com/archive/2016/organizations/6400146589876224/,python,cython,qt,machine learning
+OSGeo - The Open Source Geospatial Foundation,https://summerofcode.withgoogle.com/archive/2016/organizations/6434461499523072/,python,sql,c,ogc standards,c++
+OSU Open Source Lab,https://summerofcode.withgoogle.com/archive/2016/organizations/4845666660515840/,python,rest,javascript,ruby
+OWASP Foundation,https://summerofcode.withgoogle.com/archive/2016/organizations/5895641477677056/,python,php,javascript,java,html
+ownCloud,https://summerofcode.withgoogle.com/archive/2016/organizations/5750943224168448/,javascript,php,css,html,sql
+P2PSP.org,https://summerofcode.withgoogle.com/archive/2016/organizations/5845209434816512/,python,c++,webrtc,android,ios
+Peragro,https://summerofcode.withgoogle.com/archive/2016/organizations/5191954035900416/,python,blender,javascript,celery,django
+Performance Co-Pilot,https://summerofcode.withgoogle.com/archive/2016/organizations/5989788234547200/,golang,ruby,java,linux kernel,javascript
+Physical Web Project,https://summerofcode.withgoogle.com/archive/2016/organizations/5971566567358464/,internet of things,beacons,python,arduino
+PLASMA-UMass,https://summerofcode.withgoogle.com/archive/2016/organizations/6066521583386624/,javascript,c/c++,scala,go
+Plone Foundation,https://summerofcode.withgoogle.com/archive/2016/organizations/4815031732535296/,python,zope,javascript,rest,nosql
+Portland State University,https://summerofcode.withgoogle.com/archive/2016/organizations/5206770867765248/,open hardware,language-agnostic
+PRISM Model Checker,https://summerofcode.withgoogle.com/archive/2016/organizations/4609839401533440/,java,c++
+Public Lab,https://summerofcode.withgoogle.com/archive/2016/organizations/5680316245082112/,javascript,ruby on rails,leaflet,webrtc
+Python Software Foundation,https://summerofcode.withgoogle.com/archive/2016/organizations/5597862805110784/,python,mercurial
+QEMU,https://summerofcode.withgoogle.com/archive/2016/organizations/5308561592680448/,c,assembly,kvm
+R project for statistical computing,https://summerofcode.withgoogle.com/archive/2016/organizations/6032418200879104/,r,c,c++,fortran
+radare,https://summerofcode.withgoogle.com/archive/2016/organizations/6043148908232704/,c,rust
+ReactOS,https://summerofcode.withgoogle.com/archive/2016/organizations/5590036569391104/,c/c++,c
+Red Hen Lab,https://summerofcode.withgoogle.com/archive/2016/organizations/5973353810624512/,high performance computing,machine learning,opencv,audio procesing,multimodal analysis
+Robocomp,https://summerofcode.withgoogle.com/archive/2016/organizations/6723762711953408/,c++,python,zeroc ice,cmake,gnu/linux
+RTEMS Project,https://summerofcode.withgoogle.com/archive/2016/organizations/6376577017315328/,c,python,waf,embedded systems
+Ruby,https://summerofcode.withgoogle.com/archive/2016/organizations/5274246683033600/,ruby
+Ruby Science Foundation,https://summerofcode.withgoogle.com/archive/2016/organizations/6193060446732288/,ruby,c programming,jruby,c/c++
+Sage Mathematical Software System,https://summerofcode.withgoogle.com/archive/2016/organizations/5316387828400128/,python,javascript,cython,c++
+Scala,https://summerofcode.withgoogle.com/archive/2016/organizations/5069813219065856/,scala,jvm
+Scilab Enterprises,https://summerofcode.withgoogle.com/archive/2016/organizations/5960176045654016/,scilab,c++,java,c,fortran
+ScummVM,https://summerofcode.withgoogle.com/archive/2016/organizations/5518719174311936/,c++,sdl,opengl,assembly
+Shogun Machine Learning Toolbox,https://summerofcode.withgoogle.com/archive/2016/organizations/5799699692912640/,c++,python,swig,cmake
+Sigmah,https://summerofcode.withgoogle.com/archive/2016/organizations/5462098352013312/,java,gwt
+Soletta Project,https://summerofcode.withgoogle.com/archive/2016/organizations/6477188102619136/,c,python,javascript,networking,machine learning
+Stony Brook University Biomedical Informatics,https://summerofcode.withgoogle.com/archive/2016/organizations/6715936476233728/,medical imaging,bioinformatics,hadoop,big data
+strace,https://summerofcode.withgoogle.com/archive/2016/organizations/5410403857203200/,linux,c,git,shell script,make
+Sugar Labs,https://summerofcode.withgoogle.com/archive/2016/organizations/6254828787335168/,python,javascript,gtk+
+Sustainable Computing Research Group ( SCoRe ),https://summerofcode.withgoogle.com/archive/2016/organizations/4828464645406720/,java,android,hadoop,python,golang
+SymPy,https://summerofcode.withgoogle.com/archive/2016/organizations/6281948016148480/,python,c++
+Systers, an Anita Borg Institute Community,https://summerofcode.withgoogle.com/archive/2016/organizations/5689792285114368/,python,android,ios,mysql,ruby on rails
+TARDIS-SN,https://summerofcode.withgoogle.com/archive/2016/organizations/6195713125908480/,python,cython,c
+TEAMMATES @ National University of Singapore,https://summerofcode.withgoogle.com/archive/2016/organizations/5837196636454912/,java,app engine,javascript,css,html
+The Apertium Project,https://summerofcode.withgoogle.com/archive/2016/organizations/5377487227846656/,c++,python,perl,xml,finite-state technologies
+The Center for Connected Learning and Computer-Based Modeling,https://summerofcode.withgoogle.com/archive/2016/organizations/6259409101520896/,javascript,scala,java,html5,css
+The Honeynet Project,https://summerofcode.withgoogle.com/archive/2016/organizations/5961791221792768/,android,machine learning,honeypots,python,html/javascript
+The Julia Language,https://summerofcode.withgoogle.com/archive/2016/organizations/5096506709245952/,julia,atom,c++,javascript,c
+The Linux Foundation,https://summerofcode.withgoogle.com/archive/2016/organizations/4711296729612288/,c,c++,python,mysql,cups
+The LLVM Compiler Infrastructure,https://summerofcode.withgoogle.com/archive/2016/organizations/5806108052553728/,c,c++,llvm,clang
+The Monarch Initiative,https://summerofcode.withgoogle.com/archive/2016/organizations/5269666368847872/,semantic web,javascript,text mining,named entity recognition,ontologies
+The NetBSD Foundation,https://summerofcode.withgoogle.com/archive/2016/organizations/6363144104443904/,bsd,security,networking,c programming,kernel
+The STE||AR Group,https://summerofcode.withgoogle.com/archive/2016/organizations/6112304055713792/,parallel processing,high performance computing,c++,cuda,opencl
+The syslog-ng project,https://summerofcode.withgoogle.com/archive/2016/organizations/4906518294036480/,c,java,python,big data,rust
+The Tor Project,https://summerofcode.withgoogle.com/archive/2016/organizations/6183886396588032/,c,javascript,golang,python,browser extensions
+The Wine Project,https://summerofcode.withgoogle.com/archive/2016/organizations/6746836350009344/,c,opengl,directx,x11,win32
+Timelab Technologies Ltd.,https://summerofcode.withgoogle.com/archive/2016/organizations/6356852245790720/,python,javascript
+TimVideos.us,https://summerofcode.withgoogle.com/archive/2016/organizations/5738600293466112/,vhdl,verilog,fpga,python,c
+Unitex/GramLab,https://summerofcode.withgoogle.com/archive/2016/organizations/6601174413213696/,java,c++
+Urban Energy Systems Laboratory, Empa,https://summerofcode.withgoogle.com/archive/2016/organizations/5408616613937152/,python,milp,gis
+Vert.x,https://summerofcode.withgoogle.com/archive/2016/organizations/5126842331693056/,java,reactive,javascript,groovy,micro-services
+VideoLAN / VLMC Project,https://summerofcode.withgoogle.com/archive/2016/organizations/4704929172160512/,opengl,c++,c,assembly,qt
+vitrivr,https://summerofcode.withgoogle.com/archive/2016/organizations/5332691524255744/,java,web,computer vision,machine learning,databases
+Wayland,https://summerofcode.withgoogle.com/archive/2016/organizations/4886349127614464/,opengl,wayland,c,xml,kms
+Wikimedia Foundation,https://summerofcode.withgoogle.com/archive/2016/organizations/6644619081154560/,php,javascript,html,css,jquery
+WSO2,https://summerofcode.withgoogle.com/archive/2016/organizations/5243158099132416/,middleware,java,soa,distributed computing,web services
+X.Org Foundation,https://summerofcode.withgoogle.com/archive/2016/organizations/5141521993039872/,c,c++,opengl,vulkan,opencl
+Xapian Search Engine Library,https://summerofcode.withgoogle.com/archive/2016/organizations/5814122998398976/,c++,unicode,swig,android,golang
+XWiki,https://summerofcode.withgoogle.com/archive/2016/organizations/4955274762780672/,java,javascript,html5,css3,velocity
+Zulip Open Source Project,https://summerofcode.withgoogle.com/archive/2016/organizations/6118671613165568/,python,javascript,django,android,ios
