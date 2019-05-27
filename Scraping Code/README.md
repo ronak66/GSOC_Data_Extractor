@@ -1,7 +1,7 @@
 # GSOC_Data_Extractor
 
-It is a simple tool created to make life easier for people applying for GSOC.
-Check out the website here: [https://gsoc-data-extractor.herokuapp.com/search_tech](https://gsoc-data-extractor.herokuapp.com/search_tech)
+It is a simple tool created to make life easier for people applying for GSOC.  
+Check out the website here: [https://gsoc-data-extractor.herokuapp.com](https://gsoc-data-extractor.herokuapp.com)
 
 ## Features
 
