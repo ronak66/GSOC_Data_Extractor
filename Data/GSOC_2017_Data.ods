@@ -29,7 +29,7 @@ Chapel,https://summerofcode.withgoogle.com/archive/2017/organizations/4757669491
 Checker Framework,https://summerofcode.withgoogle.com/archive/2017/organizations/6349316859887616/,java
 Checkstyle,https://summerofcode.withgoogle.com/archive/2017/organizations/5883569398349824/, java,antlr
 Classical Language Toolkit,https://summerofcode.withgoogle.com/archive/2017/organizations/4904328934457344/, python,javascript
-CLiPS, University of Antwerp,https://summerofcode.withgoogle.com/archive/2017/organizations/4936781707345920/,python,machine learning,mongodb,javascript 
+CLiPS University of Antwerp,https://summerofcode.withgoogle.com/archive/2017/organizations/4936781707345920/,python,machine learning,mongodb,javascript 
 Clojure,https://summerofcode.withgoogle.com/archive/2017/organizations/5054104644616192/,clojure,clojurescript,jvm,javascript,functional programming
 Cloud Native Computing Foundation (CNCF),https://summerofcode.withgoogle.com/archive/2017/organizations/6018829461225472/,kubernetes,go,prometheus,fluentd,grpc
 CloudCV,https://summerofcode.withgoogle.com/archive/2017/organizations/6419112360148992/, python,django,angularjs,reactjs, deep learning
@@ -53,7 +53,7 @@ Free and Open Source Silicon Foundation,https://summerofcode.withgoogle.com/arch
 FreeBSD,https://summerofcode.withgoogle.com/archive/2017/organizations/5058101916991488/,c/c++,llvm,shell,make,assembly
 Freifunk,https://summerofcode.withgoogle.com/archive/2017/organizations/6004756195573760/,lede/openwrt,c,html/css,shell script, javascript
 Frescobaldi,https://summerofcode.withgoogle.com/archive/2017/organizations/4597892144693248/,python,pyqt
-Genes, Genomes and Variation,https://summerofcode.withgoogle.com/archive/2017/organizations/5455879507804160/,mysql,perl,javascript
+Genes Genomes and Variation,https://summerofcode.withgoogle.com/archive/2017/organizations/5455879507804160/,mysql,perl,javascript
 GENIVI Development Platform,https://summerofcode.withgoogle.com/archive/2017/organizations/4914104280023040/,linux,c,yocto,c++,qt
 Gentoo Foundation,https://summerofcode.withgoogle.com/archive/2017/organizations/6287928489672704/,shell,c/c++,python,linux
 Git,https://summerofcode.withgoogle.com/archive/2017/organizations/5061577619275776/,c, shell script, git
@@ -158,12 +158,12 @@ Shogun Machine Learning Toolbox,https://summerofcode.withgoogle.com/archive/2017
 Sigmah,https://summerofcode.withgoogle.com/archive/2017/organizations/5019976297611264/,gwt,java,postgresql
 Software Product Data Exchange (SPDX),https://summerofcode.withgoogle.com/archive/2017/organizations/6300304437936128/,rdf,python,java, github,c
 STE||AR Group,https://summerofcode.withgoogle.com/archive/2017/organizations/6145876204453888/,c++,boost,hpx,c++17 parallel stl,parallel algorithms
-Stony Brook University, Biomedical Informatics,https://summerofcode.withgoogle.com/archive/2017/organizations/6367868836904960/,big data,apache spark,matlab,c++,hadoop
+Stony Brook University Biomedical Informatics,https://summerofcode.withgoogle.com/archive/2017/organizations/6367868836904960/,big data,apache spark,matlab,c++,hadoop
 strace,https://summerofcode.withgoogle.com/archive/2017/organizations/6249254993526784/,linux,c,git,shell script,make
 Sugar Labs,https://summerofcode.withgoogle.com/archive/2017/organizations/4675168001589248/, python,javascript,gtk,android
 Sustainable Computing Research Group ( SCoRe ),https://summerofcode.withgoogle.com/archive/2017/organizations/4984473024200704/,python,java,gcp,android,golan
 SymPy,https://summerofcode.withgoogle.com/archive/2017/organizations/5228947662962688/,python,c++
-Systers, an Anita Borg Institute community,https://summerofcode.withgoogle.com/archive/2017/organizations/5429781541683200/,android,ios,python,java,javascript 
+Systers an Anita Borg Institute community,https://summerofcode.withgoogle.com/archive/2017/organizations/5429781541683200/,android,ios,python,java,javascript 
 TEAMMATES @ National University of Singapore,https://summerofcode.withgoogle.com/archive/2017/organizations/5786366906466304/,java, javascript,google app engine,css,java ee
 The Center for Connected Learning and Computer-Based Modeling,https://summerofcode.withgoogle.com/archive/2017/organizations/4578118920568832/,javascript,scala,html5
 The CGAL Project,https://summerofcode.withgoogle.com/archive/2017/organizations/6565611412914176/,c++,git,github
@@ -184,7 +184,7 @@ Tiled,https://summerofcode.withgoogle.com/archive/2017/organizations/64708146395
 TimVideos,https://summerofcode.withgoogle.com/archive/2017/organizations/6543856732471296/,python,verilog,fpga,vhdl,c
 Tor,https://summerofcode.withgoogle.com/archive/2017/organizations/5273949793419264/,c, python,javascript,c++
 UCSC Xena,https://summerofcode.withgoogle.com/archive/2017/organizations/4944943755821056/,javascript,react,clojure,d3,python
-Urban Energy Systems Laboratory, Empa,https://summerofcode.withgoogle.com/archive/2017/organizations/4513544758362112/,python,gis,fast fluid dynamics
+Urban Energy Systems Laboratory Empa,https://summerofcode.withgoogle.com/archive/2017/organizations/4513544758362112/,python,gis,fast fluid dynamics
 VideoLAN,https://summerofcode.withgoogle.com/archive/2017/organizations/4898083515138048/,c++,c,opengl,qt,assembly
 ViSP,https://summerofcode.withgoogle.com/archive/2017/organizations/4892929554382848/,vision, c++
 Wikimedia Foundation,https://summerofcode.withgoogle.com/archive/2017/organizations/6468952502829056/,php ,javascript , html , css , jquery
