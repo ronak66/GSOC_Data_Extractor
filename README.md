@@ -27,7 +27,7 @@ Check out the website here: [https://gsoc-data-extractor.herokuapp.com](https://
 ## How to use
 1. Run `cd Scraping\ Code/`
 
-2. Run `$python gsoc_yearly_data_generator.py`
+2. Run `python gsoc_yearly_data_generator.py`
     * Input the gsoc year you want to search for
     * Wait till the count down drops to zero
 
