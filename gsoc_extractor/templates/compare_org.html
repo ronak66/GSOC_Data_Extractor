@@ -1,0 +1,38 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="container">
+    <h2>GSOC Data Extractor</h2>
+    <p>Search Organizations with respect to Technology they are using or common oraganizations among different years<br>
+        Data for only 2018, 2017 and 2016 available
+    </p>
+    <div class="btn-group btn-group-justified">
+        <a href="{{url_for('search_tech')}}" class="btn btn-primary"
+           style="background-color: #69a9e0" aria-pressed="true" >Technologies</a>
+        <a href="{{url_for('compare_org')}}" class="btn btn-primary" style="background-color: #23527c">Common
+            Organizations</a>
+    </div>
+</div>
+<br><br><br>
+<div class="container" align="center">
+<form class="form-inline md-form mr-auto mb-4" method="POST">
+    <!-- <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+        <button class="btn aqua-gradient btn-rounded btn-sm my-0" type="submit">Search</button> -->
+        {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+        {% for category, message in messages %}
+        <div class="alert alert-{{ category }}">{{ message }}</div>
+        {% endfor %}
+        {% endif %}
+        {% endwith %}
+    {{ form.hidden_tag() }}
+    <h2>Input Years (Comma Separable) </h2>
+    <p><b>Example: </b>"2018,2016,2017" or "2018,2016" etc..</p>
+    <hr>
+    {{form.search(class="form-control mr-sm-2", placeholder="Years..." )}}<br><br>
+    {{form.submit(class="btn aqua-gradient btn-rounded btn-sm my-0", type="submit")}}
+</form>
+</div>
+
+
+    
+{% endblock %}
