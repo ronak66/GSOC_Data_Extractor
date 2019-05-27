@@ -25,11 +25,13 @@ Check out the website here: [https://gsoc-data-extractor.herokuapp.com](https://
     ```
 
 ## How to use
-1. Run `$python gsoc_yearly_data_generator.py`
+1. Run `cd Scraping\ Code/`
+
+2. Run `$python gsoc_yearly_data_generator.py`
     * Input the gsoc year you want to search for
     * Wait till the count down drops to zero
 
-2. Run `python query.py`
+3. Run `python query.py`
     * If you want to get list of organizations that uses a specific technology, your input should in the form:  
     `gt <gsoc year you want to search>`  
     Example: `gt 2016`
@@ -38,6 +40,6 @@ Check out the website here: [https://gsoc-data-extractor.herokuapp.com](https://
     `co <gsoc year1>,<gsoc year2>,...`  
     Example: `co 2016,2017,2018`
 
-![Screen Shot](https://github.com/ronak66/GSOC_Data_Extractor/blob/master/assets/org%20list.jpg)
+![Screen Shot](https://github.com/ronak66/GSOC_Data_Extractor/blob/master/Scraping%20Code/assets/org%20list.jpg)
 
 **Note : Don't manually delete any GSOC_<'year'>_Data.ods file, and even if you do, remove the line containing that year from ExtractedData.txt**
