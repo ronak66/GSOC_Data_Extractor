@@ -1,7 +1,7 @@
 import os
 from fuzzywuzzy import fuzz
 
-#  algorithms to answer the raised query --------------------------------------------------------
+# algorithm to answer the raised query
 
 def check(year):
     flag=0
@@ -16,11 +16,11 @@ def check(year):
             if(filename == "GSOC_"+year+"_Data.ods"):
                     test = 1
         if(test == 1):
-            print "Data of year " + year + " has not been extracted completely"
+            # print "Data of year " + year + " has not been extracted completely"
             os.system("rm "+"Data/GSOC_"+year+"_Data.ods")
-        else:
-                print "No Data of year " + year
-        print "Please run gsoc_yearly_data_generator.py for year " + year
+        # else:
+                # print "No Data of year " + year
+        # print "Please run gsoc_yearly_data_generator.py for year " + year
         flag = 1
     return flag
 
@@ -80,9 +80,9 @@ def query(qtype, query):
                 answeri["Technologies"] = i[1][1:len(i[1])]
                 answeri["link"] = i[1][0]
                 answer.append(answeri)
-                print "Organization:  " + i[0]
-                print "Technologies: ",
-                print i[1][1:len(i[1])]
-                print "Link:          " + i[1][0] + "\n"
+                # print "Organization:  " + i[0]
+                # print "Technologies: ",
+                # print i[1][1:len(i[1])]
+                # print "Link:          " + i[1][0] + "\n"
 
     return answer
